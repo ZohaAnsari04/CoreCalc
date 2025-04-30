@@ -53,20 +53,22 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				// Custom calculator colors
+				// Web3-themed calculator colors
 				calculator: {
-					bg: '#f8f9fe',
-					display: '#ffffff',
-					operator: '#9b87f5',
-					'operator-hover': '#7E69AB',
-					number: '#ffffff',
-					'number-hover': '#f0f0f0',
-					equal: '#6E59A5',
-					'equal-hover': '#5a4a89',
-					clear: '#ffdee2',
-					'clear-hover': '#ffcbd1',
-					text: '#1A1F2C',
+					bg: '#1A1F2C',
+					display: '#221F26',
+					operator: '#1EAEDB',
+					'operator-hover': '#0E8CB1',
+					number: '#222222',
+					'number-hover': '#2A2A2A',
+					equal: '#1EAEDB',
+					'equal-hover': '#0E8CB1',
+					clear: '#3A3A3D',
+					'clear-hover': '#454548',
+					text: '#FFFFFF',
 					'text-secondary': '#8E9196',
+					border: '#0000001a',
+					glow: '#1EAEDB33',
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
@@ -105,12 +107,21 @@ export default {
 					'0%': { transform: 'scale(1)' },
 					'50%': { transform: 'scale(0.95)' },
 					'100%': { transform: 'scale(1)' }
+				},
+				'button-glow': {
+					'0%': { boxShadow: '0 0 5px #1EAEDB33' },
+					'50%': { boxShadow: '0 0 15px #1EAEDB66' },
+					'100%': { boxShadow: '0 0 5px #1EAEDB33' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
-				'button-press': 'button-press 0.2s ease-out'
+				'button-press': 'button-press 0.2s ease-out',
+				'button-glow': 'button-glow 2s infinite'
+			},
+			backgroundImage: {
+				'gradient-web3': 'linear-gradient(135deg, #1A1F2C 0%, #2C3045 100%)'
 			}
 		}
 	},
