@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -52,6 +53,21 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Custom calculator colors
+				calculator: {
+					bg: '#f8f9fe',
+					display: '#ffffff',
+					operator: '#9b87f5',
+					'operator-hover': '#7E69AB',
+					number: '#ffffff',
+					'number-hover': '#f0f0f0',
+					equal: '#6E59A5',
+					'equal-hover': '#5a4a89',
+					clear: '#ffdee2',
+					'clear-hover': '#ffcbd1',
+					text: '#1A1F2C',
+					'text-secondary': '#8E9196',
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -84,11 +100,17 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'button-press': {
+					'0%': { transform: 'scale(1)' },
+					'50%': { transform: 'scale(0.95)' },
+					'100%': { transform: 'scale(1)' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'button-press': 'button-press 0.2s ease-out'
 			}
 		}
 	},
