@@ -63,7 +63,7 @@ Check out the live version of the calculator: [CoreCalc](https://corecalc.vercel
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/zoha251284ansari/CoreCalc.git
+   git clone https://github.com/ZohaAnsari04/CoreCalc.git
    ```
 
 2. Navigate to the project directory:
