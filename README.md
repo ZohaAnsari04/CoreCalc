@@ -88,8 +88,6 @@ Check out the live version of the calculator: [CoreCalc](https://corecalc.vercel
 
 ## Project Info
 
-**Development URL**: https://lovable.dev/projects/a0fe5b9d-b26b-4b57-a89e-9a44f93410d2
-
 **Live URL**: https://corecalc.vercel.app/
 
 ## Technologies Used
@@ -100,21 +98,6 @@ Check out the live version of the calculator: [CoreCalc](https://corecalc.vercel
 - **Tailwind CSS**: Utility-first CSS framework for styling
 - **shadcn/ui**: UI component library
 - **Lucide React**: Icon library
-
-## Deployment
-
-You can deploy this application using the Lovable platform:
-
-1. Visit [Lovable](https://lovable.dev/projects/a0fe5b9d-b26b-4b57-a89e-9a44f93410d2)
-2. Click on Share -> Publish
-
-## Custom Domain Setup
-
-To connect a custom domain to your deployed calculator:
-
-1. Navigate to Project > Settings > Domains in Lovable
-2. Click Connect Domain
-3. Follow the instructions to set up your domain
 
 ## Contributing
 
